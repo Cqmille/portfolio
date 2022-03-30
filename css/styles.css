@@ -1,0 +1,11 @@
+body {
+    background-color: #000000 !important;
+}
+
+.bloc-infos {
+    margin-top : 50px !important;
+    min-height: 500px;
+    border-radius: 10px;
+    background-color: #000000 !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 11px 0px;
+}
