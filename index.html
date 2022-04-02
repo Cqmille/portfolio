@@ -11,7 +11,6 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     
-    
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -20,68 +19,28 @@
 </head>
 
 <body class="bg-primary">
-    <div class="container">
+    <div class="main container">
 
-        <div class="position-absolute mw-90 top-50 start-50 translate-middle" id="square-box">
-            
+        <!-- BOX EXPERIENCES -->
+        <div class="position-absolute mw-90 top-50 start-50 translate-middle" id="square-box">  
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RRModal">
                 <img src="dist\images\squares\ressources.png" alt="Ressources relationnelles">
             </button>
-    
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BBIMOModal">
                 <img src="dist\images\squares\bbimo.png" alt="BBIMO.com"> 
             </button>
-
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BBIMOModal">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#JSModal">
                 <img src="dist\images\squares\jeanmichel.png" alt="Projets javascript">
             </button>
-
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RRModal">
-                <img src="dist\images\squares\ett.png" alt="Ressources relationnelles">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ETTModal">
+                <img src="dist\images\squares\ett.png" alt="ETT">
             </button>
-    
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BBIMOModal">
-                <img src="dist\images\squares\eureden.png" alt="BBIMO.com"> 
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EUREDENModal">
+                <img src="dist\images\squares\eureden.png" alt="Eureden"> 
             </button>
-
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BBIMOModal">
-                <img src="dist\images\squares\ovh.png" alt="Projets javascript">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#OVHModal">
+                <img src="dist\images\squares\ovh.png" alt="OVH Cloud">
             </button>
-
-
-        </div>
-
-        <div class="position-absolute top-41 start-40 translate-middle">
-
-
-        </div>
-
-
-        <!-- MODAL TEST -->
-        <div class="modal fade" id="testModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title text" id="exampleModalLabel">Test modal</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-
-                        <div>
-                            <a class="example-image-link" href="img_snow.jpg" data-lightbox="example-1"><img class="example-image" src="img_snow.jpg" alt="image-1" /></a>
-                        </div>
-
-
-
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voir sur Git</button>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- RR MODAL -->
@@ -93,8 +52,11 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Développement d'une application de partage de documents PDF dans le cadre d'un projet de groupe. En tant que développeur front-end, j'ai procédé à la conception de l'identité visuelle du site et développé les différents composants de l'interface utilisateur.</p>
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <p>Développement d'un site de partage de documents PDF dans le cadre d'un projet de groupe sur l'année CESI. En tant que développeur front-end du projet, j'ai procédé à conception de l'identité visuelle du site et développé les différents composants de l'interface utilisateur. Le déploiement interviendra en seconde partie d'année, de ce fait l'application n'est pas encore consultable encore en ligne. </p>
+                        <p>Technologies  : Typescript, Stencil JS, Bootstrap, CSS/HTML, Photoshop</p>
+                        <p>Galerie : </p>
+                        
+                        <a class="example-image-link" href="img_snow.jpg" data-lightbox="example-1"><img class="example-image" src="img_snow.jpg" alt="image-1" /></a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voir sur Git</button>
@@ -104,18 +66,41 @@
         </div>
 
         <!-- BBIMO MODAL -->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="BBIMOModal" tabindex="-1" aria-labelledby="BBIMOModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text" id="exampleModalLabel">Ressources Relationnelles</h5>
+                        <h5 class="modal-title text" id="BBIMOModalLabel">BBIMO.com</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Développement d'une application de partage de documents PDF dans le cadre d'un projet de groupe. En tant que développeur front-end, j'ai procédé à la conception de l'identité visuelle du site et développé les différents composants de l'interface utilisateur.</p>
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <p>Développement et déploiement d'un site professionnel d'agence immobilière. Conception de l'identité visuelle du site, mise en place de la structure des pages et sécurisation de l'application. </p>
+                        <p>Technologies : Wordpress, Linux CentOS</p>
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Visiter</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voir sur Git</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JS PROJECTS MODAL -->
+        <div class="modal fade" id="JSModal" tabindex="-1" aria-labelledby="JSModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text" id="JSModalLabel">Projets Javascript</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Jean-Michel game</h3>
+                        <p>Développement from scratch d'un jeu d'addresse en Javascript et Jquery. L'utilisateur doit suivre l'image du personnage avec sa souris pour gagner des points. </p>
+                        <h5>Wojack soundboard</h3>
+                        <p>Développement from scratch d'une soundboard animée avec Javascript et Bootstrap. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Démo</button>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voir sur Git</button>
                     </div>
                 </div>
