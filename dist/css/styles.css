@@ -1,3 +1,7 @@
 #square-box {
     max-width: 500px;;
 }
+
+.thumbnail {
+    max-width: 100px;
+}
