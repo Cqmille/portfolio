@@ -18,3 +18,4 @@ https://ianlunn.github.io/Hover/
 - achat serveur
 - Mise en ligne nginx + certbot
 - Page de chargment ? 
+- Logo OVH et logo ressources ? 
