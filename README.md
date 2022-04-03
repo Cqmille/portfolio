@@ -12,8 +12,9 @@ https://ianlunn.github.io/Hover/
 
 # Reste a faire : 
 
-- Background
+- Background-color : primary
 - Contenu box
 - achat domaines
 - achat serveur
 - Mise en ligne nginx + certbot
+- Page de chargment ? 
