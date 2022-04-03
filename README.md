@@ -1,17 +1,18 @@
 ## Portolio cc
 # Librairies utilisées
+Bootstrap 5.1
+https://getbootstrap.com/docs/5.1
 
 Lightbox2
 https://lokeshdhakar.com/projects/lightbox2/
 
-Bootstrap modals 
-https://getbootstrap.com/docs/4.0/components/modal/
-
 Hover CSS
 https://ianlunn.github.io/Hover/
 
-# Reste a faire : 
+AnimeJS
+https://animejs.com
 
+# To do : 
 - Background-color : primary
 - Contenu box
 - achat domaines
@@ -19,3 +20,4 @@ https://ianlunn.github.io/Hover/
 - Mise en ligne nginx + certbot
 - Page de chargment ? 
 - Logo OVH et logo ressources ? 
+- Padding sur btn linkedin
