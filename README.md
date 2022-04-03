@@ -9,3 +9,12 @@ https://getbootstrap.com/docs/4.0/components/modal/
 
 Hover CSS
 https://ianlunn.github.io/Hover/
+
+# Reste a faire : 
+
+- Background
+- Acces linkedin
+- Contenu box
+- achat domaines
+- achat serveur
+- Mise en ligne nginx + certbot
