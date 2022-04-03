@@ -14,11 +14,11 @@ body {
 
 
 #square-box {
-    width: 315px;
+    width: 280px;
 }
 
 #logo {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #exp {
@@ -48,11 +48,14 @@ body {
     margin: 0px !important;
     margin-bottom: 4px !important;
     padding: 0px !important;
-    border-radius: 15px !important;
+    border-radius: 10px !important;
 }
 
 .img-box {
-    border-radius: 15px !important;
+    border-radius: 10px !important;
+    height: 70px;
+    width: 70px;
+    
 }
 
 .hvr-grow {
