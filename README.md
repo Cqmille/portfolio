@@ -13,7 +13,6 @@ https://ianlunn.github.io/Hover/
 # Reste a faire : 
 
 - Background
-- Acces linkedin
 - Contenu box
 - achat domaines
 - achat serveur
