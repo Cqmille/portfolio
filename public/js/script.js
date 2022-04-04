@@ -16,12 +16,6 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $("#square-box").mouseover(function () {
-    $('#exp').animate({ opacity: 100 });
-    });
-});
-
 anime({
     targets: '#logo',
     translateY: 7,
@@ -29,4 +23,4 @@ anime({
     loop: true,
     easing: 'steps(8)',
     duration: 1500
-  });
+});

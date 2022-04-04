@@ -24,7 +24,7 @@ body {
 #exp {
     margin-top: 15px;
     font-family: 'FixedsysExcelsior301Regular';
-    pointer-events: none
+    pointer-events: none;
 }
 
 #exp-perso {

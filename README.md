@@ -13,11 +13,10 @@ AnimeJS
 https://animejs.com
 
 # To do : 
-- Background-color : primary
 - Contenu box
-- achat domaines
-- achat serveur
-- Mise en ligne nginx + certbot
 - Page de chargment ? 
 - Logo OVH et logo ressources ? 
 - Padding sur btn linkedin
+- Année ?
+- Linked In desc
+- Favico
