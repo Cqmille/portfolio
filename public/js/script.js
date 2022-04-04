@@ -18,9 +18,9 @@ $(document).ready(function () {
 
 anime({
     targets: '#logo',
-    translateY: 7,
+    translateY: 6,
     direction: 'alternate',
     loop: true,
-    easing: 'steps(8)',
-    duration: 1500
+    easing: 'easeInOutQuad',
+    duration: 2000
 });
