@@ -20,6 +20,11 @@ body {
     margin-bottom: 50px;
     pointer-events: none;
 }
+@media (max-width: 420px) {
+    #logo {
+        max-height: 40px;
+    }
+}
 
 #exp {
     margin-top: 15px;
@@ -36,6 +41,7 @@ body {
     width: 50px;
     opacity: 0.3;
 }
+
 #linked-in:hover {
     opacity: 1;
 }
