@@ -4,6 +4,7 @@ html, body {
 }
 
 body { 
+    color: rgb(209, 205, 199);
     background: url('../images/wp.jpg') no-repeat center center fixed;
     background-color: black;
     -moz-background-size: cover;
@@ -14,6 +15,18 @@ body {
 
 #square-box {
     width: 280px;
+}
+
+#square-box:hover #exp {
+    opacity:1;
+}
+
+#linked-in:hover #exp {
+    opacity:1;
+}
+
+#linked-in:hover {
+    opacity: 1;
 }
 
 #logo {
@@ -30,10 +43,7 @@ body {
     margin-top: 15px;
     font-family: 'FixedsysExcelsior301Regular';
     pointer-events: none;
-}
-
-#exp-perso {
-    margin-bottom: 20px;
+    opacity:0;
 }
 
 #linked-in {
@@ -42,8 +52,8 @@ body {
     opacity: 0.3;
 }
 
-#linked-in:hover {
-    opacity: 1;
+#linked-in:hover > #exp {
+    opacity:1;
 }
 
 .thumbnail {
@@ -51,17 +61,34 @@ body {
 }
 
 .btn-box {
-    margin: 0px !important;
-    margin-bottom: 4px !important;
-    padding: 0px !important;
-    border-radius: 3px !important;
+    margin: 0px;
+    margin-bottom: 4px;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+.btn-box:hover #exp{
+    opacity:0;
 }
 
 .img-box {
-    border-radius: 3px !important;
+    border-radius: 3px;
     height: 70px;
-    width: 70px;
-    
+    width: 70px; 
+}
+
+.modal-content {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-color: rgba(140, 130, 115, 0.2);
+    background-color: rgb(24, 26, 27);
+}
+
+.modal-header {
+    border-bottom-color: rgb(56, 61, 63);
+}
+
+.modal-footer {
+    border-top-color: rgb(56, 61, 63);
 }
 
 .hvr-grow {
@@ -74,7 +101,7 @@ body {
     transition-duration: 0.15s;
     -webkit-transition-property: transform;
     transition-property: transform;
-    }
+}
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
