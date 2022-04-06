@@ -16,6 +16,12 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $("#linked-in").mouseover(function () {
+    $('#exp').text("LinkedIn");
+    });
+});
+
 anime({
     targets: '#logo',
     translateY: 6,
