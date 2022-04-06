@@ -14,7 +14,7 @@ body {
 }
 
 #square-box {
-    width: 280px;
+    width: 285px;
 }
 
 #square-box:hover #exp {
@@ -32,10 +32,11 @@ body {
 #logo {
     margin-bottom: 50px;
     pointer-events: none;
+    height: 75px;
 }
-@media (max-width: 420px) {
+@media (max-width: 510px) {
     #logo {
-        max-height: 40px;
+        max-height: 44px;
     }
 }
 
@@ -73,8 +74,8 @@ body {
 
 .img-box {
     border-radius: 3px;
-    height: 70px;
-    width: 70px; 
+    height: 90px;
+    width: 90px; 
 }
 
 .modal-content {
