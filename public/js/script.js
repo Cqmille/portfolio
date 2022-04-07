@@ -22,11 +22,11 @@ $(document).ready(function () {
     });
 });
 
-anime({
-    targets: '#logo',
-    translateY: 6,
-    direction: 'alternate',
-    loop: true,
-    easing: 'easeInOutQuad',
-    duration: 2000
-});
+// anime({
+//     targets: '#logo',
+//     translateY: 6,
+//     direction: 'alternate',
+//     loop: true,
+//     easing: 'easeInOutQuad',
+//     duration: 2000
+// });
