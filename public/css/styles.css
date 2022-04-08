@@ -61,6 +61,14 @@ body {
     max-width: 80px;
 }
 
+.thumbnail-big {
+    max-width: 120px;
+}
+
+.thumbnail-big-2 {
+    max-width: 220px;
+}
+
 .btn-box {
     margin: 0px;
     margin-bottom: 4px;
