@@ -21,10 +21,6 @@ body {
     opacity:1;
 }
 
-#linked-in:hover #exp {
-    opacity:1;
-}
-
 #linked-in:hover {
     opacity: 1;
 }
@@ -32,9 +28,9 @@ body {
 #logo {
     margin-bottom: 50px;
     pointer-events: none;
-    height: 75px;
+    height: 80px;
 }
-@media (max-width: 510px) {
+@media (max-width: 600px) {
     #logo {
         max-height: 44px;
     }
