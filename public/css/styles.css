@@ -33,6 +33,19 @@ body {
 @media (max-width: 600px) {
     #logo {
         max-height: 44px;
+        visibility: hidden;
+    }
+}
+
+#logo-mobile {
+    margin-top: 100px;
+    pointer-events: none;
+    visibility: hidden;
+}
+@media (max-width: 600px) {
+    #logo-mobile {
+        visibility: visible;
+
     }
 }
 
