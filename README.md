@@ -1,5 +1,6 @@
-## Portolio cc
-# Librairies utilisées
+# Portolio cc
+Page statique présentant mes différents travaux et expériences en relation avec mon métier de développeur.
+## Librairies utilisées
 Bootstrap 5.1
 https://getbootstrap.com/docs/5.1
 
@@ -11,13 +12,3 @@ https://ianlunn.github.io/Hover/
 
 AnimeJS
 https://animejs.com
-
-# To do : 
-- Contenu box
-- Page de chargment ? 
-- Logo OVH et logo ressources ? 
-- Padding sur btn linkedin
-- Année ?
-- Linked In desc
-- Favico
-- Couleur btn box ?
