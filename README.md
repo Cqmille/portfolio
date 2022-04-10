@@ -1,5 +1,5 @@
 # Portolio cc
-Page statique présentant mes différents travaux et expériences en relation avec mon métier de développeur.
+Page statique présentant mes différents travaux et expériences en relation avec le développement web.
 ## Librairies utilisées
 Bootstrap 5.1
 https://getbootstrap.com/docs/5.1
